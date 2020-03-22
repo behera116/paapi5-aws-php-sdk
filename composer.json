@@ -1,0 +1,19 @@
+{
+    "name": "behera116/paapi5-aws-php-sdk",
+    "description": "Implementing php-sdk for aws paaapi5",
+    "authors": [
+        {
+            "name": "Ananda Behera",
+            "email": "ananda@mysmartprice.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle" : "^6.2"        
+    },
+    "autoload": {
+        "psr-4": { 
+            "Amazon\\ProductAdvertisingAPI\\v1\\" : "src/"
+        }
+    }
+}
